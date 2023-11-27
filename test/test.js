@@ -64,3 +64,5 @@ console.log("color_3.divideGreenBy:", color_3.cloned().divideGreenBy(
 console.log("color_3.divideBlueBy:", color_3.cloned().divideBlueBy(
     Color.hexToNumber(Color.numberToHex("10"))
 ).rounded());
+
+require(__dirname + "/test-language.js");

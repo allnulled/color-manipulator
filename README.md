@@ -1,24 +1,46 @@
 # color-manipulator
 
- Color API to operate mathematically with numbers in RGB and HEX formats. For both, browser and Node.js. 
+Color API to operate mathematically with numbers in RGB and HEX formats. For both, browser and Node.js. 
 
- ## Installation
+## Online user interface
 
- ```sh
- npm install --save color-manipulator
- ```
+Visit the online user interface here:
 
- ## Usage
+- [https://allnulled.github.io/color-manipulator](https://allnulled.github.io/color-manipulator)
 
- Use the classic `import` or `require` statement for Node.js
+## Installation
 
- In the browser, you can use the `src/color-manipulator.js` as standalone `<script>` import, or the API or `browserify`, `webpack` or this kind of bundlers.
+```sh
+npm install --save color-manipulator
+```
 
- ## API reference
+## Usage
 
- You can visit the [`REFERENCE.md file`](./documentation/REFERENCE.md) to find all the methods of the API.
+Use the classic `import` or `require` statement for Node.js
 
- ## Examples
+In the browser, you can use the `src/color-manipulator.js` as standalone `<script>` import, or the API or `browserify`, `webpack` or this kind of bundlers.
+
+## API reference
+
+You can visit the [`REFERENCE.md file`](./documentation/REFERENCE.md) to find all the methods of the API.
+
+## The `color-calculator-parser`
+
+The `color-calculator-parser` is the parser for making color mathematical operations. These operations are allowed (each line is valid, separatedly only):
+
+```
+#000000 + #00FF00 + #0000FF
+#000000 + 1 + 3 + 4
+#00FF00 - #00FF00
+#FFFFFF - 1 - 3 - 4
+#010101 * 5 * 10
+#202020 / 2 / 2
+( #000000 + 10 ) - ( #000000 + 10 )
+```
+
+If you get the idea, this is enough. You can multiply numbers, but if you don't use it as a way of matrix, the numbers get easily out of bounds.
+
+## Examples
 
 The test verses as follows:
 
@@ -58,3 +80,5 @@ console.log("color_3.divideRedBy:", color_3.cloned().divideRedBy(Color.hexToNumb
 console.log("color_3.divideGreenBy:", color_3.cloned().divideGreenBy(Color.hexToNumber("0A")).rounded());
 console.log("color_3.divideBlueBy:", color_3.cloned().divideBlueBy(Color.hexToNumber(Color.numberToHex("10"))).rounded());
 ```
+
+Maybe it is poor, but you can play with the [online UI playground](https://allnulled.github.io/color-manipulator).

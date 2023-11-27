@@ -4,6 +4,9 @@
   "description": "Color manipulator class and utilities",
   "main": "src/color-manipulator.js",
   "scripts": {
+    "start": "npx http-server -c-1 docs -o index.1.html",
+    "build-ui": "cp src/color-manipulator.js docs/lib/color-manipulator/color-manipulator.js && cp src/color-calculator-parser.js docs/lib/color-manipulator/color-calculator-parser.js && cp docs/index.1.html docs/index.html",
+    "build-parser": "npx pegjs --format globals --export-var ColorCalculatorParser --output src/color-calculator-parser.js src/color-calculator-parser.pegjs",
     "build-reference": "node dev/build-reference.js",
     "test": "node test/test"
   },

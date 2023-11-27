@@ -1,0 +1,26 @@
+html {
+    background-color: #DDD;
+}
+h5 {
+    padding: 12px;
+    margin: 0px;
+    background-color: #333;
+    color: white;
+}
+
+.lista_de_colores > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.recuadro_de_color {
+
+}
+.recuadro_de_color > div {
+    min-width: 40px;
+    min-height: 22px;
+    border-radius: 3pt;
+    box-shadow: 0 0 4px black;
+    cursor: pointer;
+}
