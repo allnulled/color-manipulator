@@ -38,7 +38,7 @@ The `color-calculator-parser` is the parser for making color mathematical operat
 ( #000000 + 10 ) - ( #000000 + 10 )
 ```
 
-If you get the idea, this is enough. You can multiply numbers, but if you don't use it as a way of matrix, the numbers get easily out of bounds.
+If you get the idea, this is enough. You can multiply colors by colors, and divide, but if you don't use it as a way of matrix, the numbers get easily out of bounds. In additions and substractions, it has more sense. But everything is allowed.
 
 ## Examples
 
