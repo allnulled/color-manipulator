@@ -4,9 +4,26 @@
   "description": "Color manipulator class and utilities",
   "main": "src/color-manipulator.js",
   "scripts": {
+    "build-reference": "node dev/build-reference.js",
     "test": "node test/test"
   },
-  "keywords": ["color"],
+  "keywords": [
+    "color"
+  ],
   "author": "allnulled",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allnulled/color-manipulator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allnulled/color-manipulator/issues"
+  },
+  "homepage": "https://github.com/allnulled/color-manipulator#readme",
+  "devDependencies": {
+    "javadoc": "^2.0.2"
+  }
 }
