@@ -1,0 +1,12 @@
+{
+  "name": "color-manipulator",
+  "version": "1.0.0",
+  "description": "Color manipulator class and utilities",
+  "main": "src/color-manipulator.js",
+  "scripts": {
+    "test": "node test/test"
+  },
+  "keywords": ["color"],
+  "author": "allnulled",
+  "license": "WTFPL"
+}
