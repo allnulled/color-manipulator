@@ -6,6 +6,494 @@
           ""
         ],
         "@name": [
+          " `Color.prototype.calculate(expression)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `expression` a `String` with a mathematically color expression, understood it as a expression which is valid for the `color-calculator-parser`, bundled with this project."
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "_": [
+          ""
+        ],
+        "@name": [
+          " `Color.create(...args)`"
+        ],
+        "@type": [
+          " static method"
+        ],
+        "@parameters": [
+          " Same as in constructor."
+        ],
+        "@returns": [
+          " `<Color>`\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "_": [
+          ""
+        ],
+        "@name": [
+          " `Color.hexToNumberInString(hex)`"
+        ],
+        "@type": [
+          " static method"
+        ],
+        "@parameters": [
+          " a `String` with an hexadecimal number"
+        ],
+        "@returns": [
+          " `<Integer>`\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "_": [
+          ""
+        ],
+        "@name": [
+          " `Color.hexToNumberInString(hex)`"
+        ],
+        "@type": [
+          " static method"
+        ],
+        "@parameters": [
+          " a `String` with an hexadecimal number"
+        ],
+        "@returns": [
+          " `<String>`\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "_": [
+          ""
+        ],
+        "@name": [
+          " `Color.numberToHex(number)`"
+        ],
+        "@type": [
+          " static method"
+        ],
+        "@parameters": [
+          " `number` an `Integer` to pass to HEX format."
+        ],
+        "@returns": [
+          " `<String>`\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "_": [
+          ""
+        ],
+        "@name": [
+          " `Color.constructor(value)`"
+        ],
+        "@type": [
+          " constructor method"
+        ],
+        "@parameter": [
+          " `value` a `String` that can be either in RGB or HEX format."
+        ],
+        "@returns": [
+          " `<Color>`\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.cloned()`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `void`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.addColor(color)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `color`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.addToAll(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.addToRed(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.addToGreen(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.addToBlue(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.substractColor(color)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `color`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.substractFromAll(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.substractFromRed(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.substractFromGreen(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.substractFromBlue(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.multiplyByColor(color)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `color` a `Color` instance."
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.multiplyAllBy(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.multiplyRedBy(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.multiplyGreenBy(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.multiplyBlueBy(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.divideByColor(color)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `color` a `Color` instance."
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.divideAllBy(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.divideRedBy(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.divideGreenBy(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.divideBlueBy(number)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.rounded()`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `void`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.toRGB()`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `void`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.toHexadecimal()`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `void`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/color-manipulator/color-manipulator.js"
+      }
+    ],
+    [
+      {
+        "_": [
+          ""
+        ],
+        "@name": [
+          " `Color.prototype.calculate(expression)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `expression` a `String` with a mathematically color expression, understood it as a expression which is valid for the `color-calculator-parser`, bundled with this project."
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/src/color-manipulator.js"
+      },
+      {
+        "_": [
+          ""
+        ],
+        "@name": [
           " `Color.create(...args)`"
         ],
         "@type": [
@@ -258,6 +746,21 @@
       },
       {
         "@name": [
+          " `Color.prototype.multiplyByColor(color)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `color` a `Color` instance."
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/src/color-manipulator.js"
+      },
+      {
+        "@name": [
           " `Color.prototype.multiplyAllBy(number)`"
         ],
         "@type": [
@@ -310,6 +813,21 @@
         ],
         "@parameter": [
           " `number`"
+        ],
+        "@returns": [
+          " `<Color>` the modified instance.\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/src/color-manipulator.js"
+      },
+      {
+        "@name": [
+          " `Color.prototype.divideByColor(color)`"
+        ],
+        "@type": [
+          " method"
+        ],
+        "@parameter": [
+          " `color` a `Color` instance."
         ],
         "@returns": [
           " `<Color>` the modified instance.\n"
@@ -420,6 +938,3859 @@
           " `<Color>` the modified instance.\n"
         ],
         "file": "/home/carlos/Software/Browser/color-manipulator/src/color-manipulator.js"
+      }
+    ],
+    [
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Create an instance of Axios\n"
+        ],
+        "@param": [
+          " {Object} defaultConfig The default config for the instance"
+        ],
+        "@return": [
+          " {Axios} A new instance of Axios"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "A `CancelToken` is an object that can be used to request cancellation of an operation.\n"
+        ],
+        "@class": [
+          ""
+        ],
+        "@param": [
+          " {Function} executor The executor function."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Throws a `CanceledError` if cancellation has been requested."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Subscribe to the cancel signal"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Unsubscribe from the cancel signal"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Returns an object that contains a new `CancelToken` and a function that, when called,\ncancels the `CancelToken`."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "A `CanceledError` is an object that is thrown when an operation is canceled.\n"
+        ],
+        "@class": [
+          ""
+        ],
+        "@param": [
+          " {string=} message The message."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Create a new instance of Axios\n"
+        ],
+        "@param": [
+          " {Object} instanceConfig The default config for the instance"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Dispatch a request\n"
+        ],
+        "@param": [
+          " {Object} config The config specific for this request (merged with this.defaults)"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Create an Error with the specified message, config, error code, request and response.\n"
+        ],
+        "@param": [
+          " {string} message The error message.",
+          " {string} [code] The error code (for example, 'ECONNABORTED').",
+          " {Object} [config] The config.",
+          " {Object} [request] The request.",
+          " {Object} [response] The response."
+        ],
+        "@returns": [
+          " {Error} The created error."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Add a new interceptor to the stack\n"
+        ],
+        "@param": [
+          " {Function} fulfilled The function to handle `then` for a `Promise`",
+          " {Function} rejected The function to handle `reject` for a `Promise`\n"
+        ],
+        "@return": [
+          " {Number} An ID used to remove interceptor later"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Remove an interceptor from the stack\n"
+        ],
+        "@param": [
+          " {Number} id The ID that was returned by `use`"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Iterate over all the registered interceptors\n\nThis method is particularly useful for skipping over any\ninterceptors that may have become `null` calling `eject`.\n"
+        ],
+        "@param": [
+          " {Function} fn The function to call for each interceptor"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Creates a new URL by combining the baseURL with the requestedURL,\nonly when the requestedURL is not already an absolute URL.\nIf the requestURL is absolute, this function returns the requestedURL untouched.\n"
+        ],
+        "@param": [
+          " {string} baseURL The base URL",
+          " {string} requestedURL Absolute or relative URL to combine"
+        ],
+        "@returns": [
+          " {string} The combined full path"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Throws a `CanceledError` if cancellation has been requested."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Dispatch a request to the server using the configured adapter.\n"
+        ],
+        "@param": [
+          " {object} config The config that is to be used for the request"
+        ],
+        "@returns": [
+          " {Promise} The Promise to be fulfilled"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Config-specific merge-function which creates a new config-object\nby merging two configuration objects together.\n"
+        ],
+        "@param": [
+          " {Object} config1",
+          " {Object} config2"
+        ],
+        "@returns": [
+          " {Object} New object resulting from merging config2 to config1"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Resolve or reject a Promise based on response status.\n"
+        ],
+        "@param": [
+          " {Function} resolve A function that resolves the promise.",
+          " {Function} reject A function that rejects the promise.",
+          " {object} response The response."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Transform the data for a request or a response\n"
+        ],
+        "@param": [
+          " {Object|String} data The data to be transformed",
+          " {Array} headers The headers for the request or response",
+          " {Array|Function} fns A single function or Array of functions"
+        ],
+        "@returns": [
+          " {*} The resulting transformed data"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "A timeout in milliseconds to abort a request. If set to 0 (default) a\ntimeout is not created."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Build a URL by appending params to the end\n"
+        ],
+        "@param": [
+          " {string} url The base of the url (e.g., http://www.google.com)",
+          " {object} [params] The params to be appended"
+        ],
+        "@returns": [
+          " {string} The formatted url"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Creates a new URL by combining the specified URLs\n"
+        ],
+        "@param": [
+          " {string} baseURL The base URL",
+          " {string} relativeURL The relative URL"
+        ],
+        "@returns": [
+          " {string} The combined URL"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determines whether the specified URL is absolute\n"
+        ],
+        "@param": [
+          " {string} url The URL to test"
+        ],
+        "@returns": [
+          " {boolean} True if the specified URL is absolute, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determines whether the payload is an error thrown by Axios\n"
+        ],
+        "@param": [
+          " {*} payload The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if the payload is an error thrown by Axios, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Parse a URL to discover it's components\n"
+        ],
+        "@param": [
+          " {String} url The URL to be parsed"
+        ],
+        "@returns": [
+          " {Object}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a URL shares the same origin as the current location\n"
+        ],
+        "@param": [
+          " {String} requestURL The URL to test"
+        ],
+        "@returns": [
+          " {boolean} True if URL shares the same origin, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Parse headers into an object\n\n```\nDate: Wed, 27 Aug 2014 08:58:49 GMT\nContent-Type: application/json\nConnection: keep-alive\nTransfer-Encoding: chunked\n```\n"
+        ],
+        "@param": [
+          " {String} headers Headers needing to be parsed"
+        ],
+        "@returns": [
+          " {Object} Headers parsed into an object"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Syntactic sugar for invoking a function and expanding an array for arguments.\n\nCommon use case would be to use `Function.prototype.apply`.\n\n ```js\n function f(x, y, z) {}\n var args = [1, 2, 3];\n f.apply(null, args);\n ```\n\nWith `spread` this example can be re-written.\n\n ```js\n spread(function(x, y, z) {})([1, 2, 3]);\n ```\n"
+        ],
+        "@param": [
+          " {Function} callback"
+        ],
+        "@returns": [
+          " {Function}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Convert a data object to FormData"
+        ],
+        "@param": [
+          " {Object} obj",
+          " {?Object} [formData]"
+        ],
+        "@returns": [
+          " {Object}\n*/"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Transitional option validator"
+        ],
+        "@param": [
+          " {function|boolean?} validator - set to false if the transitional option has been removed",
+          " {string?} version - deprecated version / removed since version",
+          " {string?} message - some message with additional info"
+        ],
+        "@returns": [
+          " {function}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Assert object's properties type"
+        ],
+        "@param": [
+          " {object} options",
+          " {object} schema",
+          " {boolean?} allowUnknown"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is an Array\n"
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is an Array, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is undefined\n"
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if the value is undefined, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a Buffer\n"
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is a Buffer, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is an ArrayBuffer\n"
+        ],
+        "@function": [
+          ""
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is an ArrayBuffer, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a view on an ArrayBuffer\n"
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is a view on an ArrayBuffer, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a String\n"
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is a String, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a Number\n"
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is a Number, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is an Object\n"
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is an Object, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a plain Object\n"
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@return": [
+          " {boolean} True if value is a plain Object, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a Date\n"
+        ],
+        "@function": [
+          ""
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is a Date, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a File\n"
+        ],
+        "@function": [
+          ""
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is a File, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a Blob\n"
+        ],
+        "@function": [
+          ""
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is a Blob, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a FileList\n"
+        ],
+        "@function": [
+          ""
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is a File, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a Function\n"
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is a Function, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a Stream\n"
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is a Stream, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a FormData\n"
+        ],
+        "@param": [
+          " {Object} thing The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is an FormData, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if a value is a URLSearchParams object"
+        ],
+        "@function": [
+          ""
+        ],
+        "@param": [
+          " {Object} val The value to test"
+        ],
+        "@returns": [
+          " {boolean} True if value is a URLSearchParams object, otherwise false"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Trim excess whitespace off the beginning and end of a string\n"
+        ],
+        "@param": [
+          " {String} str The String to trim"
+        ],
+        "@returns": [
+          " {String} The String freed of excess whitespace"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Determine if we're running in a standard browser environment\n\nThis allows axios to run in a web worker, and react-native.\nBoth environments support XMLHttpRequest, but not fully standard globals.\n\nweb workers:\n typeof window -> undefined\n typeof document -> undefined\n\nreact-native:\n navigator.product -> 'ReactNative'\nnativescript\n navigator.product -> 'NativeScript' or 'NS'"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Iterate over an Array or an Object invoking a function for each item.\n\nIf `obj` is an Array callback will be called passing\nthe value, index, and complete array for each item.\n\nIf 'obj' is an Object callback will be called passing\nthe value, key, and complete object for each property.\n"
+        ],
+        "@param": [
+          " {Object|Array} obj The object to iterate",
+          " {Function} fn The callback to invoke for each item"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Accepts varargs expecting each argument to be an object, then\nimmutably merges the properties of each object and returns result.\n\nWhen multiple objects contain the same key the later object in\nthe arguments list will take precedence.\n\nExample:\n\n```js\nvar result = merge({foo: 123}, {foo: 456});\nconsole.log(result.foo); // outputs 456\n```\n"
+        ],
+        "@param": [
+          " {Object} obj1 Object to merge"
+        ],
+        "@returns": [
+          " {Object} Result of all merge properties"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Extends object a by mutably adding to it the properties of object b.\n"
+        ],
+        "@param": [
+          " {Object} a The object to be extended",
+          " {Object} b The object to copy properties from",
+          " {Object} thisArg The object to bind function to"
+        ],
+        "@return": [
+          " {Object} The resulting value of object a"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Remove byte order marker. This catches EF BB BF (the UTF-8 BOM)\n"
+        ],
+        "@param": [
+          " {string} content with BOM"
+        ],
+        "@return": [
+          " {string} content value without BOM"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Inherit the prototype methods from one constructor into another"
+        ],
+        "@param": [
+          " {function} constructor",
+          " {function} superConstructor",
+          " {object} [props]",
+          " {object} [descriptors]"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Resolve object with deep prototype chain to a flat object"
+        ],
+        "@param": [
+          " {Object} sourceObj source object",
+          " {Object} [destObj]",
+          " {Function} [filter]"
+        ],
+        "@returns": [
+          " {Object}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Returns new array from array like object"
+        ],
+        "@param": [
+          " {*} [thing]"
+        ],
+        "@returns": [
+          " {Array}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Check if value is primitive."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Quick object check - this is primarily used to tell\nObjects from primitive values when we know the value\nis a JSON-compliant type."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Get the raw type string of a value, e.g., [object Object]."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Strict object type check. Only returns true\nfor plain JavaScript objects."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Check if val is a valid array index."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Convert a value to a string that is actually rendered."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Convert an input value to a number for persistence.\nIf the conversion fails, return original string."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Make a map and return a function for checking if a key\nis in that map."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Check if a tag is a built-in tag."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Check if an attribute is a reserved attribute."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Remove an item from an array."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Check whether an object has the property."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Create a cached version of a pure function."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Camelize a hyphen-delimited string."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Capitalize a string."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Hyphenate a camelCase string."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Simple bind polyfill for environments that do not support it,\ne.g., PhantomJS 1.x. Technically, we don't need this anymore\nsince native bind is now performant enough in most browsers.\nBut removing it would mean breaking code that was able to run in\nPhantomJS 1.x, so this must be kept for backward compatibility."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Convert an Array-like object to a real Array."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Mix properties into target object."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Merge an Array of Objects into a single Object."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Perform no operation.\nStubbing args to make Flow happy without leaving useless transpiled code\nwith ...rest (https://flow.org/blog/2017/05/07/Strict-Function-Call-Arity/)."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Always return false."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Return the same value."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Generate a string containing static keys from compiler modules."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Check if two values are loosely equal - that is,\nif they are plain objects, do they have the same shape?"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Return the first index at which a loosely equal value can be\nfound in the array (if value is a plain object, the array must\ncontain an object of the same shape), or -1 if it is not present."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Ensure a function is called only once."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Option merge strategies (used in core/util/options)"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Whether to suppress warnings."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Show production mode tip message on boot?"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Whether to enable devtools"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Whether to record perf"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Error handler for watcher errors"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Warn handler for watcher warns"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Ignore certain custom elements"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Custom user key aliases for v-on"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Check if a tag is reserved so that it cannot be registered as a\ncomponent. This is platform-dependent and may be overwritten."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Check if an attribute is reserved so that it cannot be used as a component\nprop. This is platform-dependent and may be overwritten."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Check if a tag is an unknown element.\nPlatform-dependent."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Get the namespace of an element"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Parse the real tag name for the specific platform."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Check if an attribute must be bound using property, e.g. value\nPlatform-dependent."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Perform updates asynchronously. Intended to be used by Vue Test Utils\nThis will significantly reduce performance if set to false."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Exposed for legacy reasons"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "unicode letters used for parsing html tags, component names and property paths.\nusing https://www.w3.org/TR/html53/semantics-scripting.html#potentialcustomelementname\nskipping \\u10000-\\uEFFFF due to it freezing up PhantomJS"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Check if a string starts with $ or _"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Define a property."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Parse simple path."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "A dep is an observable that can have multiple\ndirectives subscribing to it."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Intercept mutating methods and emit events"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "In some cases we may want to disable observation inside a component's\nupdate computation."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Observer class that is attached to each observed\nobject. Once attached, the observer converts the target\nobject's property keys into getter/setters that\ncollect dependencies and dispatch updates."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Walk through all properties and convert them into\ngetter/setters. This method should only be called when\nvalue type is Object."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Observe a list of Array items."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Augment a target Object or Array by intercepting\nthe prototype chain using __proto__"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Augment a target Object or Array by defining\nhidden properties."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Attempt to create an observer instance for a value,\nreturns the new observer if successfully observed,\nor the existing observer if the value already has one."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Define a reactive property on an Object."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Set a property on an object. Adds the new property and\ntriggers change notification if the property doesn't\nalready exist."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Delete a property and trigger change if necessary."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Collect dependencies on array elements when the array is touched, since\nwe cannot intercept array element access like property getters."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Option overwriting strategies are functions that handle\nhow to merge a parent option value and a child option\nvalue into the final value."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Options with restrictions"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Helper that recursively merges two data objects together."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Data"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Hooks and props are merged as arrays."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Assets\n\nWhen a vm is present (instance creation), we need to do\na three-way merge between constructor options, instance\noptions and parent options."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Watchers.\n\nWatchers hashes should not overwrite one\nanother, so we merge them as arrays."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Other object hashes."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Default strategy."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Validate component names"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Ensure all props option syntax are normalized into the\nObject-based format."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Normalize all injections into Object-based format"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Normalize raw function directives into object format."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Merge two option objects into a new one.\nCore utility used in both instantiation and inheritance."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Resolve an asset.\nThis function is used because child instances need access\nto assets defined in its ancestor chain."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Get the default value of a prop."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Assert whether a prop is valid."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Use function string name to check built-in types,\nbecause a simple equality check will fail when running\nacross different vms / iframes."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Recursively traverse an object to evoke all converted\ngetters, so that every nested property inside the object\nis collected as a \"deep\" dependency."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Runtime helper for resolving raw children VNodes into a slot object."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Runtime helper for rendering v-for lists."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Runtime helper for rendering <slot>"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Runtime helper for resolving filters"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Runtime helper for checking keyCodes from config.\nexposed as Vue.prototype._k\npassing in eventKeyName as last argument separately for backwards compat"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Runtime helper for merging v-bind=\"object\" into a VNode's data."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Runtime helper for rendering static trees."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Runtime helper for v-once.\nEffectively it means marking the node as static with a unique key."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Reset the scheduler's state."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Flush both queues and run the watchers."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Queue a kept-alive component that was activated during patch.\nThe queue will be processed after the entire tree has been patched."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Push a watcher into the watcher queue.\nJobs with duplicate IDs will be skipped unless it's\npushed when the queue is being flushed."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "A watcher parses an expression, collects dependencies,\nand fires callback when the expression value changes.\nThis is used for both the $watch() api and directives."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Evaluate the getter, and re-collect dependencies."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Add a dependency to this directive."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Clean up for dependency collection."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Subscriber interface.\nWill be called when a dependency changes."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Scheduler job interface.\nWill be called by the scheduler."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Evaluate the value of the watcher.\nThis only gets called for lazy watchers."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Depend on all deps collected by this watcher."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Remove self from all dependencies' subscriber list."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Each instance constructor, including Vue, has a unique\ncid. This enables us to create wrapped \"child\nconstructors\" for prototypal inheritance and cache them."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Class inheritance"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Create asset registration methods."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Query an element selector if it's not an element already."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Virtual DOM patching algorithm based on Snabbdom by\nSimon Friis Vindum (@paldepind)\nLicensed under the MIT License\nhttps://github.com/paldepind/snabbdom/blob/master/LICENSE\n\nmodified by Evan You (@yyx990803)\n\nNot type-checking this because this file is perf-critical and the cost\nof making flow understand it is not worth it."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Cross-platform code generation for component v-model"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Cross-platform codegen helper for generating v-model value assignment code."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Parse a v-model expression into a base path and a final key segment.\nHandles both dot-path and possible square brackets.\n\nPossible cases:\n\n- test\n- test[key]\n- test[test1[key]]\n- test[\"a\"][key]\n- xxx.test[a[a].test1[key]]\n- test.xxx.a[\"asa\"][test1[key]]\n"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "parent component style should be after child's\nso that parent component's style could override it"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Add class with compatibility for SVG since classList is not supported on\nSVG elements in IE"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Remove class with compatibility for SVG since classList is not supported on\nSVG elements in IE"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Normalize a transition hook's argument length. The hook may be:\n- a merged hook (invoker) with the original in .fns\n- a wrapped component method (check ._length)\n- a plain function (.length)"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Not type checking this file because flow doesn't like attaching\nproperties to Elements."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Not type-checking this file because it's mostly vendor code."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Convert HTML string to AST."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Goal of the optimizer: walk the generated template AST tree\nand detect sub-trees that are purely static, i.e. parts of\nthe DOM that never needs to change.\n\nOnce we detect these sub-trees, we can:\n\n1. Hoist them into constants, so that we no longer need to\n   create fresh nodes for them on each re-render;\n2. Completely skip them in the patching process."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Get outerHTML of elements, taking care\nof SVG elements in IE as well."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "@file": [
+          " Embedded JavaScript templating engine. {@link http://ejs.co}"
+        ],
+        "@author": [
+          " Matthew Eernisse <mde@fleegix.org>",
+          " Tiancheng \"Timothy\" Gu <timothygu99@gmail.com>"
+        ],
+        "@project": [
+          " EJS"
+        ],
+        "@license": [
+          " {@link http://www.apache.org/licenses/LICENSE-2.0 Apache License, Version 2.0}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "EJS internal functions.\n\nTechnically this \"module\" lies in the same file as {@link module:ejs}, for\nthe sake of organization all the private functions re grouped into this\nmodule.\n"
+        ],
+        "@module": [
+          " ejs-internal"
+        ],
+        "@private": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Embedded JavaScript templating engine.\n"
+        ],
+        "@module": [
+          " ejs"
+        ],
+        "@public": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "EJS template function cache. This can be a LRU object from lru-cache NPM\nmodule. By default, it is {@link module:utils.cache}, a simple in-process\ncache that grows continuously.\n"
+        ],
+        "@type": [
+          " {Cache}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Custom file loader. Useful for template preprocessing or restricting access\nto a certain part of the filesystem.\n"
+        ],
+        "@type": [
+          " {fileLoader}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Name of the object containing the locals.\n\nThis variable is overridden by {@link Options}`.localsName` if it is not\n`undefined`.\n"
+        ],
+        "@type": [
+          " {String}"
+        ],
+        "@public": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Promise implementation -- defaults to the native implementation if available\nThis is mostly just for testability\n"
+        ],
+        "@type": [
+          " {PromiseConstructorLike}"
+        ],
+        "@public": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Get the path to the included file from the parent file path and the\nspecified path.\n"
+        ],
+        "@param": [
+          " {String}  name     specified path",
+          " {String}  filename parent file path",
+          " {Boolean} [isDir=false] whether the parent file path is a directory"
+        ],
+        "@return": [
+          " {String}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Try to resolve file path on multiple directories\n"
+        ],
+        "@param": [
+          "  {String}        name  specified path",
+          "  {Array<String>} paths list of possible parent directory paths"
+        ],
+        "@return": [
+          " {String}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Get the path to the included file by Options\n"
+        ],
+        "@param": [
+          "  {String}  path    specified path",
+          "  {Options} options compilation options"
+        ],
+        "@return": [
+          " {String}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Get the template from a string or a file, either compiled on-the-fly or\nread from cache (if enabled), and cache the template if needed.\n\nIf `template` is not set, the file specified in `options.filename` will be\nread.\n\nIf `options.cache` is true, this function reads the file from\n`options.filename` so it must be set prior to calling this function.\n"
+        ],
+        "@memberof": [
+          " module:ejs-internal"
+        ],
+        "@param": [
+          " {Options} options   compilation options",
+          " {String} [template] template source"
+        ],
+        "@return": [
+          " {(TemplateFunction|ClientFunction)}\nDepending on the value of `options.client`, either type might be returned."
+        ],
+        "@static": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Try calling handleCache with the given options and data and call the\ncallback with the result. If an error occurs, call the callback with\nthe error. Used by renderFile().\n"
+        ],
+        "@memberof": [
+          " module:ejs-internal"
+        ],
+        "@param": [
+          " {Options} options    compilation options",
+          " {Object} data        template data",
+          " {RenderFileCallback} cb callback"
+        ],
+        "@static": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "fileLoader is independent\n"
+        ],
+        "@param": [
+          " {String} filePath ejs file path."
+        ],
+        "@return": [
+          " {String} The contents of the specified file."
+        ],
+        "@static": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Get the template function.\n\nIf `options.cache` is `true`, then the template is cached.\n"
+        ],
+        "@memberof": [
+          " module:ejs-internal"
+        ],
+        "@param": [
+          " {String}  path    path for the specified file",
+          " {Options} options compilation options"
+        ],
+        "@return": [
+          " {(TemplateFunction|ClientFunction)}\nDepending on the value of `options.client`, either type might be returned"
+        ],
+        "@static": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Re-throw the given `err` in context to the `str` of ejs, `filename`, and\n`lineno`.\n"
+        ],
+        "@implements": [
+          " {RethrowCallback}"
+        ],
+        "@memberof": [
+          " module:ejs-internal"
+        ],
+        "@param": [
+          " {Error}  err      Error object",
+          " {String} str      EJS source",
+          " {String} flnm     file name of the EJS file",
+          " {Number} lineno   line number of the error",
+          " {EscapeCallback} esc"
+        ],
+        "@static": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Compile the given `str` of ejs into a template function.\n"
+        ],
+        "@param": [
+          " {String}  template EJS template\n",
+          " {Options} [opts] compilation options\n"
+        ],
+        "@return": [
+          " {(TemplateFunction|ClientFunction)}\nDepending on the value of `opts.client`, either type might be returned.\nNote that the return type of the function also depends on the value of `opts.async`."
+        ],
+        "@public": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Render the given `template` of ejs.\n\nIf you would like to include options but not data, you need to explicitly\ncall this function with `data` being an empty object or `null`.\n"
+        ],
+        "@param": [
+          " {String}   template EJS template",
+          " {Object}  [data={}] template data",
+          " {Options} [opts={}] compilation and rendering options"
+        ],
+        "@return": [
+          " {(String|Promise<String>)}\nReturn value type depends on `opts.async`."
+        ],
+        "@public": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Render an EJS file at the given `path` and callback `cb(err, str)`.\n\nIf you would like to include options but not data, you need to explicitly\ncall this function with `data` being an empty object or `null`.\n"
+        ],
+        "@param": [
+          " {String}             path     path to the EJS file",
+          " {Object}            [data={}] template data",
+          " {Options}           [opts={}] compilation and rendering options",
+          " {RenderFileCallback} cb callback"
+        ],
+        "@public": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Clear intermediate JavaScript cache. Calls {@link Cache#reset}."
+        ],
+        "@public": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "EJS template class"
+        ],
+        "@public": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Escape characters reserved in XML.\n\nThis is simply an export of {@link module:utils.escapeXML}.\n\nIf `markup` is `undefined` or `null`, the empty string is returned.\n"
+        ],
+        "@param": [
+          " {String} markup Input string"
+        ],
+        "@return": [
+          " {String} Escaped string"
+        ],
+        "@public": [
+          ""
+        ],
+        "@func": [
+          "\n*/"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Express.js support.\n\nThis is an alias for {@link module:ejs.renderFile}, in order to support\nExpress.js out-of-the-box.\n"
+        ],
+        "@func": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Version of EJS.\n"
+        ],
+        "@readonly": [
+          ""
+        ],
+        "@type": [
+          " {String}"
+        ],
+        "@public": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Name for detection of EJS.\n"
+        ],
+        "@readonly": [
+          ""
+        ],
+        "@type": [
+          " {String}"
+        ],
+        "@public": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Private utility functions"
+        ],
+        "@module": [
+          " utils"
+        ],
+        "@private": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Escape characters reserved in regular expressions.\n\nIf `string` is `undefined` or `null`, the empty string is returned.\n"
+        ],
+        "@param": [
+          " {String} string Input string"
+        ],
+        "@return": [
+          " {String} Escaped string"
+        ],
+        "@static": [
+          ""
+        ],
+        "@private": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Stringified version of constants used by {@link module:utils.escapeXML}.\n\nIt is used in the process of generating {@link ClientFunction}s.\n"
+        ],
+        "@readonly": [
+          ""
+        ],
+        "@type": [
+          " {String}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Escape characters reserved in XML.\n\nIf `markup` is `undefined` or `null`, the empty string is returned.\n"
+        ],
+        "@implements": [
+          " {EscapeCallback}"
+        ],
+        "@param": [
+          " {String} markup Input string"
+        ],
+        "@return": [
+          " {String} Escaped string"
+        ],
+        "@static": [
+          ""
+        ],
+        "@private": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Naive copy of properties from one object to another.\nDoes not recurse into non-scalar properties\nDoes not check to see if the property has a value before copying\n"
+        ],
+        "@param": [
+          "  {Object} to   Destination object",
+          "  {Object} from Source object"
+        ],
+        "@return": [
+          " {Object}      Destination object"
+        ],
+        "@static": [
+          ""
+        ],
+        "@private": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Naive copy of a list of key names, from one object to another.\nOnly copies property if it is actually defined\nDoes not recurse into non-scalar properties\n"
+        ],
+        "@param": [
+          "  {Object} to   Destination object",
+          "  {Object} from Source object",
+          "  {Array} list List of properties to copy"
+        ],
+        "@return": [
+          " {Object}      Destination object"
+        ],
+        "@static": [
+          ""
+        ],
+        "@private": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Simple in-process cache implementation. Does not implement limits of any\nsort.\n"
+        ],
+        "@implements": [
+          " {Cache}"
+        ],
+        "@static": [
+          ""
+        ],
+        "@private": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Transforms hyphen case variable into camel case.\n"
+        ],
+        "@param": [
+          " {String} string Hyphen case string"
+        ],
+        "@return": [
+          " {String} Camel case string"
+        ],
+        "@static": [
+          ""
+        ],
+        "@private": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Expose `pathToRegexp`."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "The main path matching regexp utility.\n"
+        ],
+        "@type": [
+          " {RegExp}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Parse a string for the raw tokens.\n"
+        ],
+        "@param": [
+          "  {string}  str",
+          "  {Object=} options"
+        ],
+        "@return": [
+          " {!Array}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Compile a string to a template function for the path.\n"
+        ],
+        "@param": [
+          "  {string}             str",
+          "  {Object=}            options"
+        ],
+        "@return": [
+          " {!function(Object=, Object=)}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Prettier encoding of URI path segments.\n"
+        ],
+        "@param": [
+          "  {string}"
+        ],
+        "@return": [
+          " {string}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Encode the asterisk parameter. Similar to `pretty`, but allows slashes.\n"
+        ],
+        "@param": [
+          "  {string}"
+        ],
+        "@return": [
+          " {string}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Expose a method for transforming tokens into the path function."
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Escape a regular expression string.\n"
+        ],
+        "@param": [
+          "  {string} str"
+        ],
+        "@return": [
+          " {string}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Escape the capturing group by escaping special characters and meaning.\n"
+        ],
+        "@param": [
+          "  {string} group"
+        ],
+        "@return": [
+          " {string}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Attach the keys as a property of the regexp.\n"
+        ],
+        "@param": [
+          "  {!RegExp} re",
+          "  {Array}   keys"
+        ],
+        "@return": [
+          " {!RegExp}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Get the flags for a regexp from the options.\n"
+        ],
+        "@param": [
+          "  {Object} options"
+        ],
+        "@return": [
+          " {string}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Pull out keys from a regexp.\n"
+        ],
+        "@param": [
+          "  {!RegExp} path",
+          "  {!Array}  keys"
+        ],
+        "@return": [
+          " {!RegExp}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Transform an array into a regexp.\n"
+        ],
+        "@param": [
+          "  {!Array}  path",
+          "  {Array}   keys",
+          "  {!Object} options"
+        ],
+        "@return": [
+          " {!RegExp}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Create a path regexp from string input.\n"
+        ],
+        "@param": [
+          "  {string}  path",
+          "  {!Array}  keys",
+          "  {!Object} options"
+        ],
+        "@return": [
+          " {!RegExp}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Expose a function for taking tokens and returning a RegExp.\n"
+        ],
+        "@param": [
+          "  {!Array}          tokens",
+          "  {(Array|Object)=} keys",
+          "  {Object=}         options"
+        ],
+        "@return": [
+          " {!RegExp}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Normalize the given path string, returning a regular expression.\n\nAn empty array can be passed in for the keys, which will hold the\nplaceholder key descriptions. For example, using `/user/:id`, `keys` will\ncontain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.\n"
+        ],
+        "@param": [
+          "  {(string|RegExp|Array)} path",
+          "  {(Array|Object)=}       keys",
+          "  {Object=}               options"
+        ],
+        "@return": [
+          " {!RegExp}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Detects first nearest empty sortable to X and Y position using emptyInsertThreshold."
+        ],
+        "@param": [
+          "  {Number} x      X position",
+          "  {Number} y      Y position"
+        ],
+        "@return": [
+          " {HTMLElement}   Element of the first found nearest Sortable"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "@class": [
+          "  Sortable"
+        ],
+        "@param": [
+          "  {HTMLElement}  el",
+          "  {Object}       [options]"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Serializes the item into an array of string."
+        ],
+        "@returns": [
+          " {String[]}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Sorts the elements according to the array."
+        ],
+        "@param": [
+          "  {String[]}  order  order of the items"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Save the current sorting"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "For each element in the set, get the first element that matches the selector by testing the element itself and traversing up through its ancestors in the DOM tree."
+        ],
+        "@param": [
+          "   {HTMLElement}  el",
+          "   {String}       [selector]  default: `options.draggable`"
+        ],
+        "@returns": [
+          " {HTMLElement|null}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Set/get option"
+        ],
+        "@param": [
+          "   {string} name",
+          "   {*}      [value]"
+        ],
+        "@returns": [
+          " {*}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Destroy"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Gets nth child of el, ignoring hidden children, sortable's elements (does not ignore clone if it's visible)\nand non-draggable elements"
+        ],
+        "@param": [
+          "  {HTMLElement} el       The parent element",
+          "  {Number} childNum      The index of the child",
+          "  {Object} options       Parent Sortable's options"
+        ],
+        "@return": [
+          " {HTMLElement}          The child at index childNum, or null if not found"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Gets the last child in the el, ignoring ghostEl or invisible elements (clones)"
+        ],
+        "@param": [
+          "  {HTMLElement} el       Parent element"
+        ],
+        "@return": [
+          " {HTMLElement}          The last child, ignoring ghostEl"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Gets the direction dragEl must be swapped relative to target in order to make it\nseem that dragEl has been \"inserted\" into that element's position"
+        ],
+        "@param": [
+          "  {HTMLElement} target       The target whose position dragEl is being inserted at"
+        ],
+        "@return": [
+          " {Number}                   Direction dragEl must be swapped"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Generate id"
+        ],
+        "@param": [
+          "   {HTMLElement} el"
+        ],
+        "@returns": [
+          " {String}"
+        ],
+        "@private": [
+          ""
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Returns the index of an element within its parent for a selected set of\nelements"
+        ],
+        "@param": [
+          "  {HTMLElement} el",
+          "  {selector} selector"
+        ],
+        "@return": [
+          " {number}"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Returns the \"bounding client rect\" of given element"
+        ],
+        "@param": [
+          "  {HTMLElement} el                The element whose boundingClientRect is wanted",
+          "  {[HTMLElement]} container       the parent the element will be placed in",
+          "  {[Boolean]} adjustForTransform  Whether the rect should compensate for parent's transform"
+        ],
+        "@return": [
+          " {Object}                        The boundingClientRect of el"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Checks if a side of an element is scrolled past a side of it's parents"
+        ],
+        "@param": [
+          "  {HTMLElement}  el       The element who's side being scrolled out of view is in question",
+          "  {String}       side     Side of the element in question ('top', 'left', 'right', 'bottom')"
+        ],
+        "@return": [
+          " {HTMLElement}           The parent scroll element that the el's side is scrolled past, or null if there is no such element"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Returns the scroll offset of the given element, added with all the scroll offsets of parent elements.\nThe value is returned in real pixels."
+        ],
+        "@param": [
+          "  {HTMLElement} el"
+        ],
+        "@return": [
+          " {Array}             Offsets in the format of [left, top]"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "_": [
+          "Create sortable instance"
+        ],
+        "@param": [
+          " {HTMLElement}  el",
+          " {Object}      [options]"
+        ],
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
+      },
+      {
+        "file": "/home/carlos/Software/Browser/color-manipulator/docs/lib/calo/calo.js"
       }
     ]
   ],
